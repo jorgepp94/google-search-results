@@ -1,0 +1,52 @@
+.topbar-fixed{
+    display: flex;
+    align-items: center;
+    margin: 24px 28px 0 28px;
+}
+
+.logo-container {
+    margin: 0;
+    padding-right: 50px;
+}
+
+.logo-container img {
+    height: 30px;
+    width: 92px;
+}
+#searchbar-container input{
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    height: 44px;
+    width: 690px;
+    border-radius: 24px;
+    z-index: 3;
+}
+#searchbar-container input:focus{
+    outline: none;
+    border-color: rgba(223,225,229,0);
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+.top-right{
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
+}
+#apps-google{
+    width: 20px;
+}
+
+.apps-container{
+    padding-top: 2px;
+    padding-right: 20px;
+}
+#iniciar-sesion{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #4285f4;
+    color: #FFF;
+    line-height: 28px;
+    border-radius: 3px;
+}
