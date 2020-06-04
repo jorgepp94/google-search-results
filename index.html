@@ -5,13 +5,25 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles.css">
     </head>
-        <div class="topbar-fixed"> 
-            
+        <div class="topbar-container">
+            <div class="topbar-fixed"> 
+
                 <div class="logo-container">
                     <img src="/images/google-logo.png" alt="google-logo">
                 </div>
                 <div id="searchbar-container">
-                    <input type="text">
+                    <div id="searchbar-splitter">
+                        <div style="width: 80%;">
+                            <input type="text">
+                        </div>
+                        <div class="searchbar-right">
+                            <div><img style="margin: 0 10px 0 auto; width: 15px;" src="/images/clear-button.png" alt="clear"></div>
+                            <div><img style="margin: 0 auto 0 2px; width: 15px;" src="/images/vertical-line.png" alt="line"></div>
+                            <div><img style="margin: 0 auto 0 15px; width: 15px;" src="/images/google-mic.png" alt="mic"></div>
+                            <div><img style="margin: 0 auto 0 15px; width: 20px;" src="/images/search-blue.svg" alt="search-icon"></div>
+                        </div>
+                    </div>
+                    
                 </div>
 
                 <div class="top-right">
@@ -22,9 +34,52 @@
                         <a href="#"><input id="iniciar-sesion" type="button" value="Iniciar Sesion"></a>
                     </div>
                 </div>
+            </div>
 
-            
-            
+            <div class="topbar-bottom">
+                <div>
+                    <a href="#" style="text-decoration: none;">
+                        <img style="margin-right: 3px; width: 15px;" src="/images/1search-logo.png" alt="Todos">
+                        <li style="margin-right: 15px;">Todos</li>
+                    </a>
+                </div>
+                <div>
+                    <a href="#" style="text-decoration: none;">
+                        <img style="margin-right: 3px; width: 15px;" src="/images/2imagenes-logo.png" alt="Imagenes">
+                        <li style="margin-right: 15px;">Imagenes</li>
+                    </a>
+                </div>
+                <div>
+                    <a href="#" style="text-decoration: none;">
+                        <img style="margin-right: 3px; width: 15px;" src="/images/3videos-logo.png" alt="Videos">
+                        <li style="margin-right: 15px;">Videos</li>
+                    </a>
+                </div>
+                <div>
+                    <a href="#" style="text-decoration: none;">
+                        <img style="margin-right: 3px; width: 15px;" src="/images/4news-feed.png" alt="News">
+                        <li style="margin-right: 15px;">News</li>
+                    </a>
+                </div>
+                <div>
+                    <a href="#" style="text-decoration: none;">
+                        <img style="margin-right: 3px; width: 10px;" src="/images/5maps-icon.png" alt="Maps">
+                        <li style="margin-right: 15px;">Maps</li>
+                    </a>
+                </div>
+                
+                <div>
+                    <a href="#">
+                        <li style="margin: 0 auto 0 20px;">Preferencias</li>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <li style="margin: 0 auto 0 20px;">Herramientas</li>
+                    </a>
+                </div>
+
+            </div>
 
 
         </div>

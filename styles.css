@@ -1,3 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.topbar-container{
+    border-bottom: 1px solid #e4e4e4;
+}
 .topbar-fixed{
     display: flex;
     align-items: center;
@@ -13,24 +20,40 @@
     height: 30px;
     width: 92px;
 }
-#searchbar-container input{
+#searchbar-container{
+    margin-left: 10px;
     background: #fff;
     border: 1px solid #dfe1e5;
     box-shadow: none;
     height: 44px;
-    width: 690px;
     border-radius: 24px;
-    z-index: 3;
+    width: 630px;
 }
-#searchbar-container input:focus{
+#searchbar-splitter{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+#searchbar-container input{
+    border: none;
+    width: 95%;
+}
+.searchbar-right{
+    display: flex;
+    align-items: center;
+}
+#searchbar-container:hover{
     outline: none;
     border-color: rgba(223,225,229,0);
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 }
+#searchbar-container input:focus{
+    outline: none;
+}
 .top-right{
     display: flex;
     align-items: center;
-    margin-left: 450px;
+    margin-left: auto;
 }
 #apps-google{
     width: 20px;
@@ -49,4 +72,22 @@
     color: #FFF;
     line-height: 28px;
     border-radius: 3px;
+}
+
+.topbar-bottom{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin: 0 auto 0 200px;
+    padding-bottom: 15px;
+}
+
+.topbar-bottom div a{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: #5f6368;
+    list-style: none;
+    text-decoration: none;
 }
