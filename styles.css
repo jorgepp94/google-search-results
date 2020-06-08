@@ -179,3 +179,52 @@ body{
 .videos-section-bottom h3 a:hover{
     text-decoration: underline;
 }
+
+.google-pages{
+    margin-top: 40px;
+    width: 500px;
+    text-align: center;
+}
+.pages-number{
+    text-align: left;
+    margin-left: 133px;
+}
+.pages-number a{
+    padding-right: 8px;
+    text-decoration: none;
+    color: #0000ff;
+    font-size: 16px;
+}
+
+.
+.pages-number a:hover{
+    text-decoration: underline;
+}
+
+
+footer{
+    margin-top: 30px;
+    background: #f2f2f2;
+    color: rgba(0,0,0,.54);
+    width: 100%;
+}
+
+footer div {
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    
+}
+
+footer div a {
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+    padding-right: 10px;
+    margin-left: 30px;
+}
+
+.footer-text{
+    padding-left: 160px;
+}
